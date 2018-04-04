@@ -56,33 +56,57 @@ a
 	/*color:rgba(0,0,0,0.87);*/
 }
 
-.google_center_elements
+#google_center_elements
 {
 	display: flex;
 	flex-direction: column;
-	align-items: : center;
-	justify-content: center;
+	align-items: center;
 	padding-top: 120px;
 }
 
 .image_google_centrale
 {
 	display: flex;
+	justify-content: center;
+}
+
+.barre
+{
+	width: 559px;
+	height: 34px;
+	outline: none;
+	border:none;
+}
+
+.div_barre 
+{
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	justify-content: center;
+	height: 44px;
+	width: 584px;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0
 }
-
-.search_inputs
+.boutons
 {
 	display: flex;
-	align-items: : center;
 	justify-content: center;
-	padding-bottom: 20px;
+	margin-top: 18px;
 }
-
-.buttons
+.boutona, .boutonb
 {
-	display: flex;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Arial;
+	color: #757575;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	margin: 11px 4px;
+	padding: 11px 16px;
 }
 
 footer
