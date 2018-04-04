@@ -10,25 +10,30 @@ nav
 	justify-content: flex-end;
 	align-items: normal; 
     align-items: stretch; 
-    font-style: Arial;
-    margin-top: 20px;
+    font-style: arial, sans-serif;
+    margin-top: 25px;
+    margin-right: 20px;
+	
 }
 
 .gmail
 {
 	padding-right: 25px;
 	color: rgba(0,0,0,0.87);
+	font-size: 14px;
 }
 
 .images
 {
 	padding-right: 10px;
 	color: rgba(0,0,0,0.87);
+	font-size: 14px;
 }
 
 .applications
 {
 	padding-right: 10px;
+
 }
 
 .connexion
@@ -36,13 +41,12 @@ nav
 	padding: 10px 10px;
 /*	text-decoration-color: rgb(255,255,255);
 */	border: 4px blue;
-	background-color: blue;
+/*	background-color: blue;*/
 	color: white;
-}
-
-.olivier
-{
-	color: red;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	font-weight: bold;
+	font-size: 13px;
+	border-radius: 1px;
 }
 
 a
@@ -50,6 +54,44 @@ a
 	text-decoration: none;
 	
 	/*color:rgba(0,0,0,0.87);*/
+}
+
+.google_center_elements
+{
+	display: flex;
+	flex-direction: column;
+	align-items: : center;
+	justify-content: center;
+	padding-top: 120px;
+}
+
+.image_google_centrale
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search_inputs
+{
+	display: flex;
+	align-items: : center;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.buttons
+{
+	display: flex;
+}
+
+footer
+{
+	display: flex;
+	align-items: : bottom;
+	justify-content: bottom;
+	padding-top: 100px;
+
 }
 
 
